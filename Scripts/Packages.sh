@@ -69,6 +69,9 @@ UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
 
 # UPDATE_PACKAGE "lazyoop" "lazyoop/networking-artifact" "main"
 
+UPDATE_PACKAGE "luci-app-advancedplus" "kiddin9/kwrt-packages" "main"
+UPDATE_PACKAGE "luci-app-bypass" "kiddin9/kwrt-packages" "main"
+
 if [[ $WRT_REPO != *"immortalwrt"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
 fi
